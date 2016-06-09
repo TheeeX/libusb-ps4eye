@@ -1,0 +1,12 @@
+﻿  core.c
+  descriptor.c
+  hotplug.c
+  io.c
+  poll_windows.c
+  strerror.c
+  sync.c
+  threads_windows.c
+  windows_nt_common.c
+  windows_usbdk.c
+  Generating Code...
+  libusb_usbdk_static_2015.vcxproj -> C:\Users\karan\libusbmerged\libusb\msvc\..\Win32\Debug\lib\libusb-usbdk-1.0.lib

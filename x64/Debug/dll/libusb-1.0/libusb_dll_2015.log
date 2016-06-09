@@ -1,0 +1,15 @@
+﻿  core.c
+  descriptor.c
+  hotplug.c
+  io.c
+  poll_windows.c
+  strerror.c
+  sync.c
+  threads_windows.c
+  windows_nt_common.c
+  windows_winusb.c
+..\libusb\os\windows_winusb.c(2851): warning C4244: '=': conversion from 'int' to 'SHORT', possible loss of data
+..\libusb\os\windows_winusb.c(2806): warning C4101: 'maxPacketSize': unreferenced local variable
+  Generating Code...
+     Creating library C:\Users\karan\libusbmerged\libusb\msvc\..\x64\Debug\dll\libusb-1.0.lib and object C:\Users\karan\libusbmerged\libusb\msvc\..\x64\Debug\dll\libusb-1.0.exp
+  libusb_dll_2015.vcxproj -> C:\Users\karan\libusbmerged\libusb\msvc\..\x64\Debug\dll\libusb-1.0.dll

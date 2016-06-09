@@ -1,0 +1,188 @@
+﻿  core.c
+  descriptor.c
+  hotplug.c
+  io.c
+  poll_windows.c
+  strerror.c
+  sync.c
+  threads_windows.c
+  windows_nt_common.c
+  windows_winusb.c
+..\libusb\os\windows_winusb.c(2390): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2390): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2406): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2406): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2407): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2407): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2407): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2408): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2408): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2408): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2409): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2409): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2409): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2412): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2441): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2441): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2442): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2442): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2442): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2443): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2443): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2443): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2445): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2451): warning C4033: 'winusbx_init' must return a value
+..\libusb\os\windows_winusb.c(2487): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2487): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2488): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2488): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2488): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2489): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2489): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2489): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2490): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2494): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2500): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2501): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2534): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2534): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2535): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2535): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2535): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2536): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2536): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2536): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2537): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2537): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2537): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2547): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2553): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2555): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2560): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2565): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2579): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2594): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2599): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2609): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2611): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2615): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2616): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2617): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2626): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2631): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2632): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2638): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2638): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2639): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2639): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2639): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2640): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2640): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2640): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2645): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2650): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2659): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2659): warning C4210: nonstandard extension used: function given file scope
+..\libusb\os\windows_winusb.c(2659): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2660): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2660): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2660): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2661): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2661): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2661): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2662): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2664): error C2065: 'api_id': undeclared identifier
+..\libusb\os\windows_winusb.c(2672): error C2065: 'api_id': undeclared identifier
+..\libusb\os\windows_winusb.c(2684): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2684): warning C4210: nonstandard extension used: function given file scope
+..\libusb\os\windows_winusb.c(2684): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2685): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2688): error C2065: 'handle_priv': undeclared identifier
+..\libusb\os\windows_winusb.c(2688): error C2223: left of '->interface_handle' must point to struct/union
+..\libusb\os\windows_winusb.c(2690): error C2065: 'priv': undeclared identifier
+..\libusb\os\windows_winusb.c(2690): error C2223: left of '->usb_interface' must point to struct/union
+..\libusb\os\windows_winusb.c(2692): error C2065: 'priv': undeclared identifier
+..\libusb\os\windows_winusb.c(2692): error C2223: left of '->usb_interface' must point to struct/union
+..\libusb\os\windows_winusb.c(2693): error C2065: 'priv': undeclared identifier
+..\libusb\os\windows_winusb.c(2693): error C2223: left of '->usb_interface' must point to struct/union
+..\libusb\os\windows_winusb.c(2693): error C2065: 'endpoint_address': undeclared identifier
+..\libusb\os\windows_winusb.c(2702): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2702): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2703): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2704): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2706): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2706): warning C4047: 'function': 'usbi_transfer *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2706): warning C4024: 'usbi_transfer_get_os_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2769): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2769): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2770): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2770): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2770): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2771): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2771): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2771): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2772): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2772): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2772): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2777): error C2065: 'altsetting': undeclared identifier
+..\libusb\os\windows_winusb.c(2780): error C2065: 'iface': undeclared identifier
+..\libusb\os\windows_winusb.c(2786): error C2065: 'altsetting': undeclared identifier
+..\libusb\os\windows_winusb.c(2795): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2795): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2796): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2797): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2798): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2798): warning C4047: 'function': 'usbi_transfer *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2798): warning C4024: 'usbi_transfer_get_os_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2805): warning C4456: declaration of 'i' hides previous local declaration
+  ..\libusb\os\windows_winusb.c(2317): note: see declaration of 'i'
+..\libusb\os\windows_winusb.c(2815): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2815): warning C4047: 'function': 'usbi_transfer *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2815): warning C4024: 'unsupported_submit_iso_transfer': different types for formal and actual parameter 2
+..\libusb\os\windows_winusb.c(2851): warning C4244: '=': conversion from 'int' to 'SHORT', possible loss of data
+..\libusb\os\windows_winusb.c(2889): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2889): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2890): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2891): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2892): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2892): warning C4047: 'function': 'usbi_transfer *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2892): warning C4024: 'usbi_transfer_get_os_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2945): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2945): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2946): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2946): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2946): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2947): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2947): warning C4047: 'function': 'libusb_device_handle *' differs in levels of indirection from 'int'
+..\libusb\os\windows_winusb.c(2947): warning C4024: '_device_handle_priv': different types for formal and actual parameter 1
+..\libusb\os\windows_winusb.c(2948): error C2065: 'dev_handle': undeclared identifier
+..\libusb\os\windows_winusb.c(2948): error C2223: left of '->dev' must point to struct/union
+..\libusb\os\windows_winusb.c(2948): error C2198: '_device_priv': too few arguments for call
+..\libusb\os\windows_winusb.c(2954): error C2065: 'endpoint': undeclared identifier
+..\libusb\os\windows_winusb.c(2954): warning C4244: 'function': conversion from 'int' to 'uint8_t', possible loss of data
+..\libusb\os\windows_winusb.c(2960): error C2065: 'endpoint': undeclared identifier
+..\libusb\os\windows_winusb.c(2963): error C2065: 'endpoint': undeclared identifier
+..\libusb\os\windows_winusb.c(2963): warning C4244: 'function': conversion from 'int' to 'UCHAR', possible loss of data
+..\libusb\os\windows_winusb.c(2978): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2978): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2984): warning C4205: nonstandard extension used: static function declaration in function scope
+..\libusb\os\windows_winusb.c(2984): error C2143: syntax error: missing ';' before '{'
+..\libusb\os\windows_winusb.c(2985): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2986): warning C4457: declaration of 'ctx' hides function parameter
+  ..\libusb\os\windows_winusb.c(2313): note: see declaration of 'ctx'
+..\libusb\os\windows_winusb.c(2988): error C2065: 'itransfer': undeclared identifier
+..\libusb\os\windows_winusb.c(2988): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...
